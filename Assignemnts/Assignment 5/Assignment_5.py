@@ -8,7 +8,7 @@
 
 # scoreboard = { "Team Alpha": 0, "Team Beta": 0, "Team Gamma": 0 }
 
-# #Write code here
+#Write code here
 
 scoreboard = {
     "team_alpha" : 0,
@@ -19,32 +19,32 @@ scoreboard = {
 # 2️⃣ Updating Scores
 # Team Alpha wins a round! Increase their score by 10 points in the dictionary.
 
-# #Write code here
+#Write code here
 scoreboard["team_alpha"] += 10
 
 # 3️⃣ Checking Scores
 # Print the score of Team Beta using dictionary key access.
 
-# #Write code here
+#Write code here
 print("The scores of Team beta is : ", scoreboard["team_beta"])
 
 # 4️⃣ Adding a New Team
 # A new team, Team Delta, has joined the competition. Add them to the dictionary with 0 points.
 
-# #Write code here
+#Write code here
 # scoreboard.update({"team_delta" : 0})
 scoreboard["team_delta"] = 0
 
 # 5️⃣ Modifying Scores
 # Team Gamma received bonus points! Update their score to 15.
 
-# #Write code here
+#Write code here
 scoreboard["team_gamma"] += 15
 
 # 6️⃣ Handling Missing Teams
 # Mia accidentally tries to check the score of a non-existent team, "Team Omega". Use the .get() method to avoid an error and print "Team not found" if the team doesn't exist.
 
-# #Write code here
+#Write code here
 if scoreboard.get("team_omega") :
     print("The team omega score is : ", scoreboard['team_omega'])
 else:
